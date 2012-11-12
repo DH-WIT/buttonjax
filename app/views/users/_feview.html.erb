@@ -1,0 +1,16 @@
+<%= form_for(@page, remote: true) do |f| %>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<%=#thing to do tomorrow, make a scaffold for the rest of them and then do belongs to assiction on each to link them together
+%>
